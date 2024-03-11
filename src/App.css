@@ -12,6 +12,7 @@ body{
   top:0;
   left:0;
   overflow-x:hidden;
+  font-family: Roboto;
 }
 .yt-header{
   display: flex;
@@ -134,6 +135,7 @@ body{
   width:100.5%;
 }
 .title{
+  font-family: Roboto;
   text-align: left;
   font-weight: 500;
   line-height: 22px;
@@ -148,6 +150,7 @@ body{
   flex-direction: row;
   width:100%;
   height: auto;
+  font-family: Roboto;
 }
 .logo{
   justify-content: center;
@@ -163,6 +166,7 @@ body{
   flex-direction: column;
   padding:5px;
   align-items: flex-start;
+  font-family: Roboto;
 }
 .container{
   padding-top:10px;
@@ -177,6 +181,7 @@ body{
   font-weight:400;
   line-height: 20px;
   font-size: 16px;
+  font-family: Roboto;
 }
 
 .time{
@@ -190,6 +195,7 @@ body{
   padding:1px;
   margin-top:16.5%;
   margin-right:5px;
+  font-family: Roboto;
 }
 .flat{
   display: flex;
@@ -214,6 +220,7 @@ body{
   border-radius: 14px;
   transition: background-color 0.5s ease;
   cursor:pointer;
+  font-family: Roboto;
 }
 .child:hover{
   background-color: rgb(0,0,0,0.1);
@@ -245,11 +252,13 @@ body{
 a{
   text-decoration: none;
   color: black;
+  font-family: Roboto;
 }
 #dot{
-  font-size: 10px;
+  font-size: 15px;
 }
 .flask{
+  font-family: Roboto;
   cursor:pointer;
   border-radius: 10px;
   width:80%;
@@ -267,6 +276,7 @@ a{
 .caption{
   font-size:12px;
   font-weight: 400;
+font-family: Roboto;
   text-align: center;
 }
 .flask:hover{
@@ -296,6 +306,7 @@ a{
   width:100%;
 }
 .vid-title{
+  font-family: Roboto;
   display:flex;
   padding:10px;
   margin-left:2%;
@@ -318,6 +329,7 @@ a{
   object-fit: contain;
 }
 .cdetails{
+  font-family: Roboto;
   display: flex;
   flex-direction: column;
   margin-left:1%;
@@ -327,13 +339,16 @@ a{
   font-size:16px;
   color:rgb(15,15,15);
   font-weight: 500;
+  font-family: Roboto;
 }
 .subs{
+  font-family: Roboto;
   font-size: 12px;
   font-weight: 400;
   color:#969696;
 }
 .subs-button{
+  font-family: Roboto;
   width:105px;
   height:40px;
   margin-left: 2%;
@@ -387,6 +402,7 @@ a{
   width:26px;
 }
 .description{
+  font-family: Roboto;
   display: flex;
   width: 95%;
   height: auto;
@@ -429,6 +445,7 @@ a{
 }
 .sub-desc {
   flex: 1;
+  font-family: Roboto;
   padding: 12px; 
 }
 
@@ -442,11 +459,13 @@ a{
   font-size: 14px;
   color: #606060;
   margin-bottom: 4px;
+  font-family: Roboto;
 }
 
 .sub-views {
   font-size: 14px;
   color: #606060; 
+  font-family: Roboto;
 }
 .dark {
   background-color: black !important;
@@ -454,6 +473,7 @@ a{
 .dark-input{
   border: 1px solid hsl(0, 0%, 18.82%) !important;
   background-color: hsla(0, 0%, 100%, 0.08) !important;
+  font-family: Roboto;
 }
 .dark-input input:focus{
   border:1px solid;

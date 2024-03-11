@@ -152,7 +152,7 @@ export default function Player(props) {
         <img src={curl} alt='chlogo'></img>
         <div className='cdetails'>
           <div className='cname'>{cname}</div>
-          <div className='subs'>{subs}</div>
+          <div className='subs'>{subs} Subscribers</div>
         </div>
         <div className='subs-button'>Subscribe</div>
         <div className='likes-btn'>
