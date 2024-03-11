@@ -7,7 +7,7 @@ function Header(props) {
 
     useEffect(() => {
 
-        let key = 'AIzaSyBiM1E3IvBR8skWHQY_vzsij8WN89K7VHo';
+        const key = process.env.REACT_APP_API_KEY;
         async function fetchChannel(cid){
             try{
                 let url = `https://www.googleapis.com/youtube/v3/channels?part=snippet&part=statistics&part=brandingSettings&id=${cid}&key=${key}`;

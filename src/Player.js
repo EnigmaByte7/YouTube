@@ -3,7 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import up from './up.png';
 import down from './dwn.png';
-let key = 'AIzaSyBiM1E3IvBR8skWHQY_vzsij8WN89K7VHo';
+const key = process.env.REACT_APP_API_KEY;
 
 async function fetchVidDetails(id){
   try {
