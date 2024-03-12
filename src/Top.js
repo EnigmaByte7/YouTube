@@ -22,7 +22,7 @@ export default function Top(props) {
           <div id='loadingbar'></div>
         </div>
             <div className="yt-logo">
-                <img src={props.dark === 1 ? (window.innerWidth < 768 ? mobyt : ytdark ) : (window.innerWidth < 768 ? mobyt : yt )} alt='yt-logo' />
+                <a href='https://youtube-afoyvtowv-enigmabyte7s-projects.vercel.app/'><img src={props.dark === 1 ? (window.innerWidth < 768 ? mobyt : ytdark ) : (window.innerWidth < 768 ? mobyt : yt )} alt='yt-logo' /></a>
             </div>
             <form id='search'>
                 <input type='text' name='search' id='searchbar' placeholder="Search" className={props.dark === 1 ? 'dark-input' : 'light'} />
