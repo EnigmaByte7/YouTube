@@ -503,7 +503,7 @@ font-family: Roboto;
     margin-left:0;
   }
   .yt-header{
-    padding:5px;
+    padding:0px;
   }
   .yt-logo img{
     width:70px;
@@ -584,7 +584,7 @@ font-family: Roboto;
     z-index:999;
     bottom:0;
     flex-direction: row;
-    height:7%
+    height:7%;
     padding:20px;
     width:100%;
     position: fixed;
