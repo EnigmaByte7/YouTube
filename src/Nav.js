@@ -16,7 +16,7 @@ function Nav(props){
     ];
     return (            
     <div className="nav" >
-            <a href='http://localhost:3000/'> 
+            <a href='https://youtube-afoyvtowv-enigmabyte7s-projects.vercel.app/'> 
             <div className='flask' >
                 <img className='navimg' src={Home}></img>
                 <div className='caption'>Home</div>
