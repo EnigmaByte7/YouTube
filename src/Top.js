@@ -32,6 +32,7 @@ export default function Top(props) {
                     event.preventDefault();
                     props.func(document.getElementById('searchbar').value);
                     history('/');
+                    document.getElementById('loadingbar').style.display = 'block';
                 }}>
                     <img className={`srchbtn ${props.dark === 1 ? 'dark-img' : 'light'}`} src={srch} alt='search' />
                 </button>
