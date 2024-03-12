@@ -500,6 +500,7 @@ font-family: Roboto;
   .top{
     height:auto;
     width:100%;
+    margin-left:0;
   }
   .yt-header{
     padding:5px;
@@ -583,7 +584,7 @@ font-family: Roboto;
     z-index:999;
     bottom:0;
     flex-direction: row;
-    height:fit-content;
+    height:7%
     padding:20px;
     width:100%;
     position: fixed;
