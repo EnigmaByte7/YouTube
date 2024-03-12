@@ -548,7 +548,7 @@ font-family: Roboto;
   }
   #player{
     aspect-ratio: 16/9;
-    height:400px;
+    height:auto;
   }
   .channel-details{
     padding-bottom:12px;
@@ -594,6 +594,15 @@ font-family: Roboto;
     text-decoration: none;
     color:black;
   }
+    .box{
+        row-gap:0;
+    }
+    .container, .text{
+        padding:0px;
+    }
+    .channelname, .date{
+        margin-top:0;
+    }
 }
 .Loading{
   top:0;
