@@ -4,7 +4,13 @@ import ytdark from './yt-dark.png';
 import mobyt from './yt-mobile.png';
 import { useNavigate } from 'react-router-dom';
 
-
+document.addEventListener('DOMContentLoaded', function() {
+    window.addEventListener('load', function() {
+    setInterval(function() {
+        document.getElementById('loadingbar').style.display = 'none';
+    }, 4000);
+    });
+})
 
 
 export default function Top(props) {
