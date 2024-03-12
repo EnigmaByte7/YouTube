@@ -23,7 +23,7 @@ function App() {
           <Nav fun={handleclick}/>
           <div className='main'>
             <div className='top'> 
-              <Top func={handleclick}  dark={0}/>
+              <Top func={handleclick} q={query} dark={0}/>
               <Options func={handleclick} />
             </div>
               <Header q={query}/>
@@ -32,7 +32,7 @@ function App() {
         }></Route>
         <Route path='/video/:id/:cid/:name/:query/:subs/:likes/:views/:desc/:cname/:curl' element={
           <div>
-            <Top func={handleclick} dark={1}/>
+            <Top func={handleclick} q={query} dark={1}/>
             <Player q={query}/>
           </div>}>
         </Route>
